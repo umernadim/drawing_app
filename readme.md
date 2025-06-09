@@ -4,7 +4,7 @@ This is a **practice project** where I created a simple **drawing app** using **
 
 ## 🔗 Live Demo
 
-[View Live](your-live-link-here)
+[View Live](https://umernadim.github.io/drawing_app/)
 
 ## 🛠️ Tech Stack
 
