@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="container">
+        <div id="toolbar">
+            <h2>Draw.</h2>
+            <label for="stroke">Stroke</label>
+            <input type="color" name="stroke" id="stroke">
+            <label for="lineWidth">line width</label>
+            <input type="number" name="lineWidth" id="lineWidth" value="5">
+            <button id="clear">Clear</button>
+        </div>
+        
+        <div class="drawing-board">
+            <canvas id="drawing-board" ></canvas>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
